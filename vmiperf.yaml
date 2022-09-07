@@ -1,0 +1,17 @@
+#cloud-config
+package_upgrade: true
+
+# bootcmd:
+#   # Because of https://github.com/MicrosoftDocs/azure-docs/issues/82500
+#   - systemctl mask waagent-apt.service
+
+runcmd:
+ # Install iperf
+ - echo "Updating packages ..."
+ - apt-get -qq update
+ - echo "Install netperf ..."
+ - apt-get -qq install netperf
+ - echo "kill netperf ..."
+ - killall -9 netserver
+ - echo "Start netperf in deamon mode ..."
+ - netserver -d -p 12865 -4 -v 2 -Z 0+01tdTzPwjcIFM/sphtJQ==

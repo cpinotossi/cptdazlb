@@ -1,0 +1,181 @@
+{
+  "backendAddressPools": [
+    {
+      "backendIpConfigurations": null,
+      "drainPeriodInSeconds": null,
+      "etag": "W/\"7214406f-3077-4782-8b46-b24119e9b7a0\"",
+      "id": "/subscriptions/f474dec9-5bab-47a3-b4d3-e641dac87ddb/resourceGroups/cptdazlb/providers/Microsoft.Network/loadBalancers/cptdazlbspoke1/backendAddressPools/cptdazlbspoke1",
+      "inboundNatRules": null,
+      "loadBalancerBackendAddresses": [],
+      "loadBalancingRules": null,
+      "location": null,
+      "name": "cptdazlbspoke1",
+      "outboundRule": null,
+      "outboundRules": [
+        {
+          "id": "/subscriptions/f474dec9-5bab-47a3-b4d3-e641dac87ddb/resourceGroups/cptdazlb/providers/Microsoft.Network/loadBalancers/cptdazlbspoke1/outboundRules/cptdazlbspoke1",
+          "resourceGroup": "cptdazlb"
+        }
+      ],
+      "provisioningState": "Succeeded",
+      "resourceGroup": "cptdazlb",
+      "tunnelInterfaces": null,
+      "type": "Microsoft.Network/loadBalancers/backendAddressPools"
+    },
+    {
+      "backendIpConfigurations": [
+        {
+          "applicationGatewayBackendAddressPools": null,
+          "applicationSecurityGroups": null,
+          "etag": null,
+          "gatewayLoadBalancer": null,
+          "id": "/subscriptions/f474dec9-5bab-47a3-b4d3-e641dac87ddb/resourceGroups/cptdazlb/providers/Microsoft.Network/networkInterfaces/cptdazlbspoke1/ipConfigurations/cptdazlbspoke1",
+          "loadBalancerBackendAddressPools": null,
+          "loadBalancerInboundNatRules": null,
+          "name": null,
+          "primary": null,
+          "privateIpAddress": null,
+          "privateIpAddressVersion": null,
+          "privateIpAllocationMethod": null,
+          "privateLinkConnectionProperties": null,
+          "provisioningState": null,
+          "publicIpAddress": null,
+          "resourceGroup": "cptdazlb",
+          "subnet": null,
+          "type": null,
+          "virtualNetworkTaps": null
+        }
+      ],
+      "drainPeriodInSeconds": null,
+      "etag": "W/\"7214406f-3077-4782-8b46-b24119e9b7a0\"",
+      "id": "/subscriptions/f474dec9-5bab-47a3-b4d3-e641dac87ddb/resourceGroups/cptdazlb/providers/Microsoft.Network/loadBalancers/cptdazlbspoke1/backendAddressPools/cptdazlbspoke1New",
+      "inboundNatRules": null,
+      "loadBalancerBackendAddresses": [
+        {
+          "adminState": null,
+          "etag": "W/\"7214406f-3077-4782-8b46-b24119e9b7a0\"",
+          "id": "/subscriptions/f474dec9-5bab-47a3-b4d3-e641dac87ddb/resourceGroups/cptdazlb/providers/Microsoft.Network/loadBalancers/cptdazlbspoke1/backendAddressPools/cptdazlbspoke1New/loadBalancerBackendAddresses/cptdazlb_cptdazlbspoke1cptdazlbspoke1",
+          "inboundNatRulesPortMapping": [],
+          "ipAddress": null,
+          "loadBalancerFrontendIpConfiguration": null,
+          "name": "cptdazlb_cptdazlbspoke1cptdazlbspoke1",
+          "networkInterfaceIpConfiguration": {
+            "id": "/subscriptions/f474dec9-5bab-47a3-b4d3-e641dac87ddb/resourceGroups/cptdazlb/providers/Microsoft.Network/networkInterfaces/cptdazlbspoke1/ipConfigurations/cptdazlbspoke1",
+            "resourceGroup": "cptdazlb"
+          },
+          "resourceGroup": "cptdazlb",
+          "subnet": null,
+          "type": "Microsoft.Network/loadBalancers/backendAddressPools/loadBalancerBackendAddresses",
+          "virtualNetwork": null
+        }
+      ],
+      "loadBalancingRules": null,
+      "location": null,
+      "name": "cptdazlbspoke1New",
+      "outboundRule": null,
+      "outboundRules": null,
+      "provisioningState": "Succeeded",
+      "resourceGroup": "cptdazlb",
+      "tunnelInterfaces": null,
+      "type": "Microsoft.Network/loadBalancers/backendAddressPools"
+    }
+  ],
+  "etag": "W/\"7214406f-3077-4782-8b46-b24119e9b7a0\"",
+  "extendedLocation": null,
+  "frontendIpConfigurations": [
+    {
+      "etag": "W/\"7214406f-3077-4782-8b46-b24119e9b7a0\"",
+      "gatewayLoadBalancer": null,
+      "id": "/subscriptions/f474dec9-5bab-47a3-b4d3-e641dac87ddb/resourceGroups/cptdazlb/providers/Microsoft.Network/loadBalancers/cptdazlbspoke1/frontendIPConfigurations/cptdazlbspoke1",
+      "inboundNatPools": null,
+      "inboundNatRules": null,
+      "loadBalancingRules": null,
+      "name": "cptdazlbspoke1",
+      "outboundRules": [
+        {
+          "id": "/subscriptions/f474dec9-5bab-47a3-b4d3-e641dac87ddb/resourceGroups/cptdazlb/providers/Microsoft.Network/loadBalancers/cptdazlbspoke1/outboundRules/cptdazlbspoke1",
+          "resourceGroup": "cptdazlb"
+        }
+      ],
+      "privateIpAddress": null,
+      "privateIpAddressVersion": null,
+      "privateIpAllocationMethod": "Dynamic",
+      "provisioningState": "Succeeded",
+      "publicIpAddress": {
+        "ddosSettings": null,
+        "deleteOption": null,
+        "dnsSettings": null,
+        "etag": null,
+        "extendedLocation": null,
+        "id": "/subscriptions/f474dec9-5bab-47a3-b4d3-e641dac87ddb/resourceGroups/cptdazlb/providers/Microsoft.Network/publicIPAddresses/cptdazlbspoke1",
+        "idleTimeoutInMinutes": null,
+        "ipAddress": null,
+        "ipConfiguration": null,
+        "ipTags": null,
+        "linkedPublicIpAddress": null,
+        "location": null,
+        "migrationPhase": null,
+        "name": null,
+        "natGateway": null,
+        "provisioningState": null,
+        "publicIpAddressVersion": null,
+        "publicIpAllocationMethod": null,
+        "publicIpPrefix": null,
+        "resourceGroup": "cptdazlb",
+        "resourceGuid": null,
+        "servicePublicIpAddress": null,
+        "sku": null,
+        "tags": null,
+        "type": null,
+        "zones": null
+      },
+      "publicIpPrefix": null,
+      "resourceGroup": "cptdazlb",
+      "subnet": null,
+      "type": "Microsoft.Network/loadBalancers/frontendIPConfigurations",
+      "zones": null
+    }
+  ],
+  "id": "/subscriptions/f474dec9-5bab-47a3-b4d3-e641dac87ddb/resourceGroups/cptdazlb/providers/Microsoft.Network/loadBalancers/cptdazlbspoke1",
+  "inboundNatPools": [],
+  "inboundNatRules": [],
+  "loadBalancingRules": [],
+  "location": "eastus",
+  "name": "cptdazlbspoke1",
+  "outboundRules": [
+    {
+      "allocatedOutboundPorts": 0,
+      "backendAddressPool": {
+        "id": "/subscriptions/f474dec9-5bab-47a3-b4d3-e641dac87ddb/resourceGroups/cptdazlb/providers/Microsoft.Network/loadBalancers/cptdazlbspoke1/backendAddressPools/cptdazlbspoke1",
+        "resourceGroup": "cptdazlb"
+      },
+      "enableTcpReset": true,
+      "etag": "W/\"7214406f-3077-4782-8b46-b24119e9b7a0\"",
+      "frontendIpConfigurations": [
+        {
+          "id": "/subscriptions/f474dec9-5bab-47a3-b4d3-e641dac87ddb/resourceGroups/cptdazlb/providers/Microsoft.Network/loadBalancers/cptdazlbspoke1/frontendIPConfigurations/cptdazlbspoke1",
+          "resourceGroup": "cptdazlb"
+        }
+      ],
+      "id": "/subscriptions/f474dec9-5bab-47a3-b4d3-e641dac87ddb/resourceGroups/cptdazlb/providers/Microsoft.Network/loadBalancers/cptdazlbspoke1/outboundRules/cptdazlbspoke1",
+      "idleTimeoutInMinutes": 4,
+      "name": "cptdazlbspoke1",
+      "protocol": "All",
+      "provisioningState": "Succeeded",
+      "resourceGroup": "cptdazlb",
+      "type": "Microsoft.Network/loadBalancers/outboundRules"
+    }
+  ],
+  "probes": [],
+  "provisioningState": "Succeeded",
+  "resourceGroup": "cptdazlb",
+  "resourceGuid": "f3dfcdfa-28fc-46db-bfbf-bb188532c62e",
+  "sku": {
+    "name": "Standard",
+    "tier": "Regional"
+  },
+  "tags": {
+    "env": "cptdazlb"
+  },
+  "type": "Microsoft.Network/loadBalancers"
+}
