@@ -87,8 +87,9 @@ git submodule update --init
 git status
 git add .gitignore
 git add *
-git commit -m"init"
+git commit -m"Partly working"
 git push origin main
+git push --set-upstream origin main
 git push --recurse-submodules=on-demand
 git rm README.md # unstage
 git --help
